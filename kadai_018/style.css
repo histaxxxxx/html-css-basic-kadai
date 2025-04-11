@@ -75,6 +75,7 @@ body {
 
 /* Step5-2: 下の子要素の位置調整 */
 #bottom-child02 {
+  position: relative;
   left: 200px;
   top: 100px;
 }
