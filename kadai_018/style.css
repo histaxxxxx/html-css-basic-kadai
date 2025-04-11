@@ -69,20 +69,20 @@ body {
   height: 100px;
   background-color: #e5dcf0;
   position: absolute;
-  top: 0; /* 全部上にそろえる */
+  top: 0; /* ← 全部同じ高さに */
+}
+
+/* 横方向のずらし */
+#bottom-child01 {
   left: 0;
 }
 
-/* Step5-2: 下の子要素の位置調整 */
 #bottom-child02 {
-  position: relative;
   left: 200px;
-  top: 100px;
 }
 
 #bottom-child03 {
   left: 400px;
-  top: 200px;
 }
 
 
