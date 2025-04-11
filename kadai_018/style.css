@@ -1,15 +1,26 @@
+/* 共通設定 */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  font-family: sans-serif;
+}
 
+/* Step3: 一番上の図形 */
 #top {
   width: 800px;
   background-color: #dcc9f4;
   margin: 20px auto;
   text-align: center;
 }
+
 .top-child {
   width: 20%;
   background-color: #ffd9df;
   display: inline-block;
 }
+
+/* Step4-1: 真ん中の図形ベースデザイン */
 #middle {
   width: 800px;
   height: 800px;
@@ -41,6 +52,8 @@
   top: 500px;
   left: 500px;
 }
+
+/* Step5-1: 一番下の図形ベースデザイン */
 #bottom {
   width: 800px;
   height: 300px;
@@ -48,6 +61,7 @@
   margin: 0 auto;
   position: relative;
 }
+
 #bottom-child01,
 #bottom-child02,
 #bottom-child03 {
@@ -55,9 +69,11 @@
   height: 100px;
   background-color: #e5dcf0;
   position: absolute;
-  top: 0;
+  top: 0; /* 全部上にそろえる */
   left: 0;
 }
+
+/* Step5-2: 下の子要素の位置調整 */
 #bottom-child02 {
   left: 200px;
   top: 100px;
@@ -67,4 +83,5 @@
   left: 400px;
   top: 200px;
 }
+
 
